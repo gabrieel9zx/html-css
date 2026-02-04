@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: burlywood;
+        }
+
+        a::before {
+            content: 'teste voltar';
+        }
+        
+        a::after {
+            content: '[vlt]';
+            font-weight: normal;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizar link</h1>
+    <ul>
+        <li><a href="https://chatgpt.com/c/69699820-0cf4-8331-9f39-965241fc2f6e">github</a></li>
+        <li><a href="https://www.youtube.com/@lordwojak4034/videos">canal ytb</a></li>
+        <li><a href="https://www.youtube.com">site</a></li>
+    </ul>
+</body>
+</html>

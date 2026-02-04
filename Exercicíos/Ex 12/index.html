@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMGS</title>
+</head>
+<body>
+    <h1>Imgs dinamicas</h1>
+    <p>Tente abrir esse site em outros dispositivos ou tenta diminuir tamanho navevgador</p>
+<!-- O elemento picture permite carregar imagens diferentes dependendo do tamanho da tela do usuário --> 
+ <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img3.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img.png" type="image/png">
+        <img src="Imagens/img2.png" alt="image/png">
+    </picture>
+    <h1>Reproduzir audio</h1>
+    <p>Reproduzindo...</p>
+    <audio preload="metadata" controls>
+    <source src="midia/kelly k.mp3" type="audio/mp3"></audio>
+    <p>Se o audio n baixou, tente por aq <a href="midia/kelly k.mp3" target="_blank" rel="external">Clique aqui para baixar o audio</a></p>
+    
+</body>
+</html>       

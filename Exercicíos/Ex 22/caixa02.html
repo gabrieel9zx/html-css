@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grupar tags</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        aside {
+            color: aqua;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding:90px;
+            text-align: center;
+            margin: 30px;
+            border-radius: 60px;
+            box-shadow: 10px 10px 10px #000000;
+        }
+
+        footer {
+            font-size: 30px;
+            background-color: #000000;
+            color: white;
+            padding: 1px;
+            text-align: center;
+            border-radius: 30px;
+        }
+
+        article > aside
+        {
+            color: antiquewhite;
+            background-color: #000000;
+        }
+
+        nav {
+            background-color: bisque;
+            padding: 2px;
+        }
+        
+        nav > a {
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            margin-right: 40px;
+            background-color: #fd0000;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        footer > p {
+            margin: 0px;
+            padding: 1px;
+        }
+
+
+        .bola {
+            background-color: rgb(255, 255, 255);
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border-radius: 50%;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Menu</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticiario">
+
+        </section>
+
+        <article>
+            <h2>Noticiario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia qui dolorum dolorem laudantium quam maiores, perspiciatis illum officia natus minima beatae iusto assumenda. Numquam facere omnis sequi maxime officiis doloribus.</p>
+            <aside>
+                <p>artigo escrito</p>
+            </aside>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Desenvolver</p>
+    </footer>
+
+    <main class="bola">
+
+    </main>
+
+
+</body>
+</html>

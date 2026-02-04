@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px igual a 1em
+    SEMPRE USE PX e EM
+    PREFERENCIAL.
+
+    */
+
+}
+
+h1, h2 {
+    font-size: 300%;
+    font: italic bolder 3em 'Work Sans', sans-serif;
+
+    
+    /* Posso mesclar tudo
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    */
+}

@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(100, 25, 143);
+}
+    
+    main {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000000;
+    }
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    text-align: justify;
+    text-shadow: 1px 10px 15px #000000;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    
+}
+
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  animation: mover 50s linear infinite;
+}
+
+.marquee-track img {
+  flex-shrink: 0;
+    width: 300px; /* ajuste se quiser */
+  height: auto;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+  }
+
+  .amor {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .texto {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    text-align: center;
+  }
+
+  .main1 {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .urso {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+  }
+
+    .sim{
+        height: 20px;
+        width: 40px;
+        color: white;
+        background-color: red;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 20px;
+         display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+
+    .perfeito {
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: red;
+      font-size: 40px;
+    }
+
+    .perfeito2 {
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+      font-size: 30px;
+    }
+
+    li {
+      font-size: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+    }
+
+    li:visited {
+      color: brown;
+    }
+
+    li:hover {
+      text-decoration: underline;
+      color: black;
+    }
+
+  main {
+    position: relative;
+  }
+
+  .imgdireita {
+    position: absolute;
+    height: 50px;
+    right: 10px;
+    top: 70px;
+    width: auto;
+  }
+
+  .imgdireita2{
+    position: absolute;
+    height: 35px;
+    right: 10px;
+    top: 125px;
+    width: auto;
+  }
+
+  .imgdireita3 {
+    position: absolute;
+    height: 40px;
+    right: 10px;
+    top: 170px;
+    width: auto;
+  }
+
+  .h1principal {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .h1principal:hover {
+    text-align: center;
+    color: rgb(94, 255, 0);
+    font-weight: bold;
+  }
+
+  video {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .caixadentro {
+    background-color: white;
+    width: auto;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #000000;
+  }
+
+  nav {
+    text-align: center;
+    padding: 3px;
+  }
+
+  nav > a {
+    text-decoration: none;
+    font-size: 35px;
+    color: violet;
+    font-weight: bold;
+    margin-right: 70px;
+    
+  }
+
+  .blocos01 {
+    margin: 20px;
+    border: 5px solid red;
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    
+  }
+
+  .blocos01:hover {
+    background-color: red;
+  }
+ 
+  .blocos02 {
+    margin: 20px;
+    border: 5px solid black;
+    text-align: center;
+    background-color: red;
+    height: 200px; 
+    width: 200px;
+    position: relative;
+    left: 230px;
+    top: -230.3px;
+  
+  }
+
+  .blocos02:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .blocos03 {
+    margin: 20px;
+    border: 5px solid #ffffff;
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -460px;
+    left: 460px;
+
+  }
+
+  .blocos03:hover {
+    background-color: black;
+  }
+
+      
+
+
+
+

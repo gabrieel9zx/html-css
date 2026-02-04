@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div</title>
+    <style>
+        body {
+            background-color: darkorchid;
+        }
+        div > p {
+        display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: aqua;
+            background-color: black;
+            width: 200px;
+        }
+
+        div:hover {
+            color: rgb(0, 255, 42);
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <h2>Abaixo msg vai sumir</h2>
+    <div>
+        passa mouse aqui
+        <p>msg sumida</p>
+    </div>
+    <p>finalizada aqui</p>
+</body>
+</html>
