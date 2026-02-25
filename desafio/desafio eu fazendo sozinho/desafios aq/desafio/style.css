@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sriracha&family=Story+Script&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+
+:root {
+    --fonte1: Roboto Mono, monospace;
+    --fonte2: Funnel Sans, sans-serif;
+    --fonte3: Lugrasimo, cursive;
+}
+
 
 * {
     margin: 0;
@@ -37,6 +52,7 @@ header > h1 {
     font-size: 35px;
     padding-top: 20px;
     color: white;
+    font-size: 5vw;
 }
 
 header > p {
@@ -45,10 +61,11 @@ header > p {
     padding-top: 20px;
     color: white;
 
+
 }
 
 section.normal {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--fonte1);
     padding-bottom: 20px;
 }
 
@@ -95,7 +112,7 @@ section#img02 {
 
 
 section.img > p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--fonte2);
     width: 100%;
     font-size: 30px;
     padding-right: 10px;
@@ -119,5 +136,6 @@ footer {
     font-weight: bolder;
     text-decoration: none;
     color: thistle;
+    font-family: var(--fonte3);
 }
 
