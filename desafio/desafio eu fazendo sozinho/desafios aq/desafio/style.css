@@ -64,10 +64,13 @@ header > p {
 
 }
 
+
 section.normal {
     font-family: var(--fonte1);
     padding-bottom: 20px;
 }
+
+
 
 section {
     font-size: 30px;
@@ -103,7 +106,7 @@ section#img02 {
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    font-size: normal;
+    font-size: 100px;
     padding-top: 20px;
 
 }
