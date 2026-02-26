@@ -13,26 +13,23 @@
         border: 5px solid rgb(0, 0, 0);
         width: 500px;
         height: 200px;
-        border-collapse: separate;
+        border-collapse: collapse;
         border-radius: 20px #ac3c3c;
        }
 
         td {
             border: 1px solid black;
             padding: 5px;
+            text-align: center; /* Alinhamento do texto */
+            vertical-align: middle; /* Alinhamento no meio */
         }
 
-        td.linha1, .linha4 {
-            background-color: lightgreen;
+        .numero {
+            text-align: left;
+            font-size: 30px;
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
         }
 
-        td.linha3 {
-            background-color: rgb(166, 166, 194);
-        }
-
-        tr.dado {
-            background-color: lightpink;
-        }
         
     </style>
 </head>
@@ -49,8 +46,8 @@
     -->
 
     <table>
-        <tr class="dado"> <!-- Primeira Linha-->
-            <td class="linha1">A1</td>
+        <tr"> <!-- Primeira Linha-->
+            <td>A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
@@ -62,22 +59,20 @@
         </tr>
 
         <tr> <!-- Terceira Linha-->
-            <td class="linha3">A3</td>
+            <td>A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
 
-        <tr class="linha4"> <!-- Quarta Linha-->
-            <td>A4</td>
+        <tr> <!-- Quarta Linha-->
+            <td class="numero">A4</td>
             <td>B4</td>
-            <td>C4</td>
+            <td class="numero">C4</td>
         </tr>
 
         
 
     </table>
-
-
         
     </h1>
 </body>
