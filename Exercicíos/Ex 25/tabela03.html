@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 tabela</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        thead {
+            background-color: grey;
+            color: white;
+        }
+
+        .num {
+            text-align: right;
+        }
+        
+        caption {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(43, 43, 43, 0.281);
+        }
+
+        tbody > tr:nth-child(1) {
+            background-color: rgba(165, 31, 31, 0.788);
+            font-weight: bold;
+        }
+
+        
+        tbody > tr:nth-child(4) {
+            background-color:-rgba(240, 0, 0, 0.788);
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <!-- ANATOMIA TABELA GRANDES
+          TABLE
+          CAPTION
+            THEAD
+                TR, TD, TH
+
+            TBODY
+                TR, TD, TH
+
+            TFOOT
+                TR, TD, TH
+    -->
+    
+    <table>
+        <caption>Tabela a Seguir</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 105px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <th scope="row">
+                Total de Habitantes
+            </th>
+            <td class="num"><strong>45 919 049</strong></td>
+        </tr>
+        </tfoot>                        
+
+    </table>
+
+</body>
+</html>
