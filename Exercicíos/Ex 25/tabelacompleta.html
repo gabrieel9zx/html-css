@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela completa</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;    
+        }
+
+        th, tbody, td {
+            border: 3px solid black;
+            width: 200px;
+            height: 50px;
+            
+        }
+
+        tr > th.grupo {
+            text-align: center;
+            background-color: grey;
+        }
+
+        td {
+            text-align: center;
+        }
+        
+        tbody > tr > th.grupo2, td.grupo3 {
+            background-color: rgba(139, 139, 139, 0.555);
+            font-weight: bolder;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Tabela completa</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="grupo">Grupo</th>
+                <th class="grupo">Nomes</th>
+                <th colspan="3" class="grupo">Filmes</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <th rowspan="2" class="grupo2">Mulheres</th>
+                    <td class="grupo3">Ana Maria</td>
+                    <td class="grupo3">Gumball</td>
+                    <td class="grupo3">Clarencio</td>
+                </tr>
+
+                <tr>
+                    <td class="grupo3">Beatriz</td>
+                    <td class="grupo3">Rambo</td>
+                    <td class="grupo3">Gumball</td>
+                </tr>
+                <tr>
+                  <th rowspan="3" class="grupo2">Homem</th>
+                  <td class="grupo3">Gabriel</td>
+                  <td class="grupo3">Rambo</td>
+                  <td class="grupo3">Hora de Aventura</td>
+                </tr>
+
+                <tr>
+                    <td class="grupo3">Rafael</td>
+                    <td class="grupo3" >Hora do Show</td>
+                    <td class="grupo3">Steve o Universo</td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>
