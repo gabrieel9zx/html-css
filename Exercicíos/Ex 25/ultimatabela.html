@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        caption {
+            font-size: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 3px solid black;
+            width: 200px;
+            height: 50px;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .cnome {
+            background-color: rgba(128, 128, 128, 0.397);
+        }
+
+        .csexo{
+            background-color: rgba(0, 0, 0, 0.363)
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Ex Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="3">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>20</td>
+            <td>T.I</td>
+        </tr>
+        <tr>
+            <td>Julia</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Gastronomia</td>
+        </tr>
+    </table>
+</body>
+</html>
