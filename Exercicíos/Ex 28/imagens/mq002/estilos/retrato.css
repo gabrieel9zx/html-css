@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /* config retrato */
+
+ body {
+    background-position: center bottom;
+ }
